@@ -1,0 +1,131 @@
+*{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	
+}
+#header{
+background-color: red;
+z-index: 1;
+margin-bottom:20px;
+}
+#h1-header{
+	color: #fff;
+	font-size: arial;
+	padding-left: 8px;
+	padding-top: 4px;
+	padding-bottom: 8px;
+}
+.h3-header{
+	color: #fff;
+	font-size: arial;
+	padding-left: 8px;
+	padding-top: 5px;
+	padding-bottom: 2px;
+}
+.link-cabecalho{
+	text-decoration: none;
+	color: white;
+	word-spacing: 25px;
+	font-size: 17spx;
+	font-family: arial;
+}
+#navegação{
+	text-align: right;
+	padding-right: 7px;
+	color:#fff ;
+}
+
+.promocao{
+	color: #fff;
+	background-color: red;
+	margin: 0 auto;
+	text-align: center;
+	width: 90%;
+	height: 100px;
+	border-radius: 50px;
+	font-family: arial;
+	font-size: 20px;
+	padding-top: 30px;
+}
+#produto {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+#produto .sabores{
+	margin: 10px;
+	border: 2px solid red;
+	border-radius: 25px;
+	text-align: center;
+	background-color: red;
+	font-size: 20px;
+	color: #fff;
+	
+	
+	
+	{
+	margin: 0;
+	padding: 0;
+}
+#cabecalho{
+	position:relative;
+	background: linear-grandient(to right,#c72992,#6c14d0);
+	background-clip: text;
+	/*-webkit-text-fill-color: transparent;*/
+}
+input{
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	color: #b3b3b3;
+    width: 200px;
+    border-radius: 10px;	
+}
+label{
+	font-size: 20px;
+}
+
+	
+}
+#produto .sabores p{
+	font-size: 125% ; 
+}
+#produto .sabores img{
+	width: 260px;
+	border-radius: 25px;
+	
+	
+}
+#produto .sabores button{
+	font-size:20px;
+	padding:15px;
+	margin:15px;
+	border-radius:10px;
+	color:white;
+	background:#801828;
+}
+.link-cabecalho{
+	font-weight:bold;
+	font-family:arial;
+	
+}
+.link-cabecalho:hover{
+	color:yellow;
+	transition:all ease-in-out 3ms;
+}
+
+.endereco-entrega{
+    color: black;
+	font-size: arial;
+	padding: 20px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	
+}
+.endereco-entrega h2 img{
+	width: 30px;
+}
+ 
